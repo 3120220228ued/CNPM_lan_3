@@ -7,6 +7,18 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['dangky'])) {
 		$failed = true;
 	}
 }
+/*
+Ghi chú file:
+1.	aos: Animate On Scroll, đây là thư viện của CSS và JavaScript giúp ta có thể gọi animation bằng sự kiện scroll
+2.	bootstrap: là một front-end framework mã nguồn mở miễn phí giúp quá trình phát triển web được nhanh và dễ dàng hơn. Bootstrap bao gồm các mẫu thiết kế dựa trên HTML và CSS như typography, forms, buttons, tables, navigation, modals, image carousels… cũng như các plugin JavaScript tùy chọn.
+3.	counterup: bô đếm
+4.	icofont: là cách thức dùng những font chữ được thiết kế đặc biệt để thay thế cho các hình ảnh được dùng trong việc thiết kế website
+5.	isotope: thư viện hiệu ứng sắp xếp
+6.	jquery: à một tập hợp Code JavaScript được các Lập trình viên tài năng viết sẵn rồi đóng gói lại có thể đem ra để sử dụng trong dự án của mình.
+7.	Owl Carousel: là một plugin giúp xây dựng các slide show được sử dụng hàng đầu trong website bởi tính đa năng, tiện lợi của nó
+8.	php-email-form: form cho php. Các thông tin mà người dùng nhập vào form cần phải được xác thực (validate) để đảm bảo sự hợp lý của dữ liệu.
+9.	VenoBox: là một thư viện xây dựng bằng Jquey giúp bạn có thể tạo modal cho nhiều loại đối tượng HTML khác nhau như là hình ảnh, nội dung chữ,
+*/
 ?>
 <!DOCTYPE html>
 <html lang="en">
