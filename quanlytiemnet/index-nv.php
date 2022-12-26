@@ -10,8 +10,6 @@ require_once('./db_connect.php');
 
 
 
-
-
 <?php
 require_once('./footer.php');
 
