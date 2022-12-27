@@ -5,6 +5,7 @@ $title = "Quản lý giao dịch";
 require_once('./db_connect.php');
 require_once('./include/function.php');
 require_once('./header-nv.php');
+
 $querykhachhang = mysqli_query($conn, "SELECT * FROM `thongtinkhachhang`");
 $querygia = mysqli_query($conn, "SELECT * FROM `giatien` WHERE 1 ORDER BY `idgiatien` DESC");
 $querymay = mysqli_query($conn, "SELECT `tenmay` FROM `maytinh` WHERE `id`=" . $_GET['may']);
