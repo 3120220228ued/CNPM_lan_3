@@ -6,7 +6,7 @@ require_once('./db_connect.php');
 require_once('./include/function.php');
 require_once('./header.php');
 
-$queryinsert = 0; 
+$queryinsert = 0;
 if (isset($_POST['type']) && $_POST['type'] == 'insert') {
     $queryinsert = mysqli_query($conn, "INSERT INTO `danhmuc`(`ID`, `MaDanhMuc`, `TenDanhMuc`, `Loai`) VALUES ('" . $_POST['id'] . "',, '" . $_POST['madanhmuc'] . "',, '" . $_POST['tendanhmuc'] . "',, '" . $_POST['loai'] . "')");
 }
