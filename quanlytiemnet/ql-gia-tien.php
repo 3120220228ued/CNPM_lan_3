@@ -17,7 +17,7 @@ if ($query){
     while($row =mysqli_fetch_assoc($query))
     {
         $emparray[] = $row;
-    } 
+    }
     echo "<script> var data2 = ".json_encode($emparray)."; </script>";
 }
 ?>
