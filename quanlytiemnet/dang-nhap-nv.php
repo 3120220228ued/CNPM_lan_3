@@ -8,7 +8,6 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['dangnhap'])) {
 		$failed = true;
 	}
 }
-
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -19,6 +18,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['dangnhap'])) {
 	<link href="assets/img/sp.png" rel="icon">
 	<link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 	<!-- Google Fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Roboto:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
 	<!-- Vendor CSS Files -->
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
