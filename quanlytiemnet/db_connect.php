@@ -1,6 +1,5 @@
 <?php
-
-$servername = "localhost:8080";
+$servername = "localhost:3306";
 $username = "root";
 $password = "";
 $database = "quanlytiemnet";
