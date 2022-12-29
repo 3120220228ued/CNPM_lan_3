@@ -7,6 +7,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['dangky'])) {
 		$failed = true;
 	}
 }
+
 /*
 Ghi chú file:
 1.	aos: Animate On Scroll, đây là thư viện của CSS và JavaScript giúp ta có thể gọi animation bằng sự kiện scroll
@@ -19,6 +20,7 @@ Ghi chú file:
 8.	php-email-form: form cho php. Các thông tin mà người dùng nhập vào form cần phải được xác thực (validate) để đảm bảo sự hợp lý của dữ liệu.
 9.	VenoBox: là một thư viện xây dựng bằng Jquey giúp bạn có thể tạo modal cho nhiều loại đối tượng HTML khác nhau như là hình ảnh, nội dung chữ,
 */
+
 ?>
 <!DOCTYPE html>
 <html lang="en">
