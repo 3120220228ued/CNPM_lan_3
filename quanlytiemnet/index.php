@@ -34,7 +34,7 @@ require_once('./db_connect.php');
 				?>
 						<div class="col-xl-2 col-md-4 col-6 mb-4" data-aos="zoom-in">
 							<a class="card" href="./ql-giao-dich.php?may=<?= $maytinh['id'] ?>">
-								<img src="./assets/img/computer-used.png" width="100px" class="card-img-top" alt="máy đang sử dụng">
+								<img src="./assets/img/checkin.png" width="100px" class="card-img-top" alt="máy đang sử dụng">
 								<div class="card-body">
 									<div class="font-weight-bold text-primary text-center"><?= $maytinh['tenmay'] ?></div>
 									<div class="text-info text-center"><?= date("H:i:m", strtotime($giaodich['thoigianbatdau'])); ?></div>
