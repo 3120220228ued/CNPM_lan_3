@@ -21,8 +21,9 @@ if (isset($_POST['update'])) {
 }
 
 $querymay = mysqli_query($conn, "SELECT * FROM `maytinh` WHERE 1 ORDER BY `tenmay` ASC");
-?>
 
+?>
+<?php
 if ($queryinsert) :
     echo "<script>Swal.fire('Thành công!', 'Thêm máy tính thành công!', 'success')</script>";
 elseif ($queryinsert !== 0) :
@@ -170,7 +171,6 @@ endif;
         modal.find('#msgxoa').html("Bạn chắc muốn xóa <b>" + tenmay +"</b>? Sau khi xóa bạn sẽ không thể khôi phục lại được.<br/> - Nếu <b>đồng ý</b> xóa, hãy nhấn <b>chấp nhận</b>.<br/> - Nếu <b>không đồng ý</b> xóa, hãy nhấn <b>đóng</b>.")
     })
 </script>
-
 <?php
 require_once('./footer.php');
 ?>
