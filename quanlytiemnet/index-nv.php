@@ -8,6 +8,7 @@ require_once('./db_connect.php');
 
 ?>
 
+
 <div class="row">
 	<?php
 	$query = mysqli_query($conn, "SELECT * FROM `maytinh` WHERE 1 ORDER BY `tenmay` ASC");
@@ -74,12 +75,8 @@ require_once('./db_connect.php');
 	?>
 </div>
 
+
 <?php
 require_once('./footer.php');
 
 ?>
-
-
-
-
-
